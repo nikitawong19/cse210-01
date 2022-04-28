@@ -21,15 +21,18 @@ def main():
     elif winner == None:
         print('Tie.')      
 
+
 # Set global variables so that the variable can be used everywhere.
 game_still_going = True
 winner = None
 current_player = 'X'
 
+
 # Game board.
 board = ['-', '-', '-',
         '-', '-', '-',
         '-', '-', '-']
+
 
 # Display the game board.
 def display_board():
